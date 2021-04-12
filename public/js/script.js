@@ -1,12 +1,47 @@
 let IndexComponent = {
-    name: 'index',
-    methods: {
-        changePage(page) {
-            this.$emit('changepage', page);
-        },
+  name: "index",
+  data: () => ({
+    sliderOptions: {
+      productsSlick: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: true,
+        speed: 300,
+        dots: false,
+        arrows: true,
+        // appendArrows: $nav ? $nav : false,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      },
     },
-    template:
-        `
+  }),
+  methods: {
+    changePage(page) {
+      this.$emit("changepage", page);
+    },
+    initSlider() {
+      $(".products-slick").slick(this.sliderOptions.productsSlick);
+    },
+  },
+  mounted() {
+    this.initSlider();
+  },
+  template: `
         <div>
             <header>
                 <!-- TOP HEADER -->
@@ -1059,33 +1094,21 @@ let IndexComponent = {
 
         </div>
 
-        `
+        `,
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
 let vue = new Vue({
-    el: '#app',
-    components: {
-        index: IndexComponent,
+  el: "#app",
+  components: {
+    index: IndexComponent,
+  },
+  data: {
+    name: "",
+    currentComponent: "index",
+  },
+  methods: {
+    changePage(page) {
+      this.currentComponent = page;
     },
-    data: {
-        name:'',
-        currentComponent: 'index'
-    },
-    methods: {
-        changePage(page) {
-            this.currentComponent = page;
-        },
-    }
+  },
 });

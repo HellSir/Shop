@@ -24,6 +24,7 @@ class CreateProductsTable extends Migration
             $table->string('category');
             $table->string('description');
             $table->string('details');
+            $table->string('sales');
             $table->string('reviews');
             $table->timestamps();
         });
