@@ -29,6 +29,74 @@ let IndexComponent = {
         ],
       },
     },
+products:[
+    {
+        name: "PC",
+        price: "10000",
+        old_price: "9900",
+        color: "black",
+        quantity: "100",
+        stars: "5",
+        category: "PC",
+        description: "Офигенный комп",
+        details: "Мощный комп",
+        sales: "-10%",
+        reviews: "10",
+    },
+    {
+        name: "НЕPC",
+        price: "НЕ10000",
+        old_price: "НЕ9900",
+        color: "НЕblack",
+        quantity: "НЕ100",
+        stars: "НЕ5",
+        category: "НЕPC",
+        description: "НЕОфигенный комп",
+        details: "НЕМощный комп",
+        sales: "-20%",
+        reviews: "НЕ10",
+    },
+    {
+        name: "PC",
+        price: "10000",
+        old_price: "9900",
+        color: "black",
+        quantity: "100",
+        stars: "5",
+        category: "PC",
+        description: "Офигенный комп",
+        details: "Мощный комп",
+        sales: "-10%",
+        reviews: "10",
+    },
+    {
+        name: "НЕPC",
+        price: "НЕ10000",
+        old_price: "НЕ9900",
+        color: "НЕblack",
+        quantity: "НЕ100",
+        stars: "НЕ5",
+        category: "НЕPC",
+        description: "НЕОфигенный комп",
+        details: "НЕМощный комп",
+        sales: "-20%",
+        reviews: "-20%",
+    },
+    {
+        name: "PC",
+        price: "10000",
+        old_price: "9900",
+        color: "black",
+        quantity: "100",
+        stars: "5",
+        category: "PC",
+        description: "Офигенный комп",
+        details: "Мощный комп",
+        sales: "-10%",
+        reviews: "10",
+    },
+]
+
   }),
   methods: {
     changePage(page) {
@@ -268,163 +336,74 @@ let IndexComponent = {
                         <!-- /section title -->
 
                         <!-- Products tab & slick -->
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="products-tabs">
-                                    <!-- tab -->
-                                    <div id="tab1" class="tab-pane active">
-                                        <div class="products-slick" data-nav="#slick-nav-1">
-                                            <!-- product -->
-                                            <div class="product">
-                                                <div class="product-img">
-                                                    <img src="./img/product01.png" alt="">
-                                                        <div class="product-label">
-                                                            <span class="sale">-30%</span>
-                                                            <span class="new">NEW</span>
-                                                        </div>
-                                                </div>
-                                                <div class="product-body">
-                                                    <p class="product-category">Категория</p>
-                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-                                                    <div class="product-rating">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="product-btns">
-                                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в любимое</span></button>
-                                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">добавить в сравнение</span></button>
-                                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
-                                                    </div>
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>добавить в корзину</button>
-                                                </div>
-                                            </div>
-                                            <!-- /product -->
-
-                                            <!-- product -->
-                                            <div class="product">
-                                                <div class="product-img">
-                                                    <img src="./img/product02.png" alt="">
-                                                        <div class="product-label">
-                                                            <span class="new">NEW</span>
-                                                        </div>
-                                                </div>
-                                                <div class="product-body">
-                                                    <p class="product-category">Категория</p>
-                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-                                                    <div class="product-rating">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </div>
-                                                    <div class="product-btns">
-                                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в любимое</span></button>
-                                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">добавить в сравнение</span></button>
-                                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
-                                                    </div>
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>добавить в корзину</button>
-                                                </div>
-                                            </div>
-                                            <!-- /product -->
-
-                                            <!-- product -->
-                                            <div class="product">
-                                                <div class="product-img">
-                                                    <img src="./img/product03.png" alt="">
-                                                        <div class="product-label">
-                                                            <span class="sale">-30%</span>
-                                                        </div>
-                                                </div>
-                                                <div class="product-body">
-                                                    <p class="product-category">Категория</p>
-                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-                                                    <div class="product-rating">
-                                                    </div>
-                                                    <div class="product-btns">
-                                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в любимое</span></button>
-                                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">добавить в сравнение</span></button>
-                                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
-                                                    </div>
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>добавить в корзину</button>
-                                                </div>
-                                            </div>
-                                            <!-- /product -->
-
-                                            <!-- product -->
-                                            <div class="product">
-                                                <div class="product-img">
-                                                    <img src="./img/product04.png" alt="">
-                                                </div>
-                                                <div class="product-body">
-                                                    <p class="product-category">Категория</p>
-                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-                                                    <div class="product-rating">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="product-btns">
-                                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в любимое</span></button>
-                                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">добавить в сравнение</span></button>
-                                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
-                                                    </div>
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>добавить в корзину</button>
-                                                </div>
-                                            </div>
-                                            <!-- /product -->
-
-                                            <!-- product -->
-                                            <div class="product">
-                                                <div class="product-img">
-                                                    <img src="./img/product05.png" alt="">
-                                                </div>
-                                                <div class="product-body">
-                                                    <p class="product-category">Категория</p>
-                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-                                                    <div class="product-rating">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="product-btns">
-                                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в любимое</span></button>
-                                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">добавить в сравнение</span></button>
-                                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
-                                                    </div>
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>добавить в корзину</button>
-                                                </div>
-                                            </div>
-                                            <!-- /product -->
-                                        </div>
-                                        <div id="slick-nav-1" class="products-slick-nav"></div>
-                                    </div>
-                                    <!-- /tab -->
-                                </div>
-                            </div>
+<div class="col-md-12">
+              <div class="row">
+                <div class="products-tabs">
+                  <!-- tab -->
+                  <div id="tab1" class="tab-pane active">
+                    <div class="products-slick" data-nav="#slick-nav-1">
+                      <!-- product -->
+                      <div
+                        v-for="(product, index) in products[0].data"
+                        :key="index"
+                        class="product"
+                      >
+                        <div class="product-img">
+                          <img src="./img/product01.png" alt="" />
+                          <div class="product-label">
+                            <span class="sale">ИМЯ</span>
+                            <span class="new">NEW</span>
+                          </div>
                         </div>
+                        <div class="product-body">
+                          <p class="product-category">КАТЕГОРИЯ</p>
+                          <h3 class="product-name">
+                            <a href="#">ИМЯ</a>
+                          </h3>
+                          <h4 class="product-price">
+                            1000
+                            <del class="product-old-price"
+                              >1100</del
+                            >
+                          </h4>
+                          <div class="product-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <div class="product-btns">
+                            <button class="add-to-wishlist">
+                              <i class="fa fa-heart-o"></i
+                              ><span class="tooltipp">добавить в любимое</span>
+                            </button>
+                            <button class="add-to-compare">
+                              <i class="fa fa-exchange"></i
+                              ><span class="tooltipp"
+                                >добавить в сравнение</span
+                              >
+                            </button>
+                            <button class="quick-view">
+                              <i class="fa fa-eye"></i
+                              ><span class="tooltipp">быстрый просмотр</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="add-to-cart">
+                          <button class="add-to-cart-btn">
+                            <i class="fa fa-shopping-cart"></i>добавить в
+                            корзину
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="slick-nav-1" class="products-slick-nav"></div>
+                  </div>
+                  <!-- /tab -->
+                </div>
+              </div>
+            </div>
                         <!-- Products tab & slick -->
                     </div>
                     <!-- /row -->
