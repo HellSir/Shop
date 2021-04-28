@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a79f484-1d7e-4ead-8975-0977fe251f62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="5a79f484-1d7e-4ead-8975-0977fe251f62" name="Default Changelist" comment="qqq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/KREA-main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,7 +203,17 @@
       <workItem from="1617785139341" duration="46000" />
       <workItem from="1618229362742" duration="7563000" />
       <workItem from="1619429890067" duration="4713000" />
+      <workItem from="1619514109476" duration="1171000" />
+      <workItem from="1619598829532" duration="1116000" />
     </task>
+    <task id="LOCAL-00001" summary="qqq">
+      <created>1619514363199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619514363199</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,15 +231,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qqq" />
+    <option name="LAST_COMMIT_MESSAGE" value="qqq" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1618234448971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618234448971" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618236270142">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619598914989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618236270142" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619598914989" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1617727677366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617727681866" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617727706787">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619514365877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617727706787" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619514365877" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1617630852470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
